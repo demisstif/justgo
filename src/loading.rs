@@ -38,4 +38,9 @@ pub struct AudioAssets {
 pub struct TextureAssets {
     #[asset(path = "textures/bevy.png")]
     pub texture_bevy: Handle<Image>,
+    // #[asset(path = "textures/character/wheelbot/idle 112x26.png")]
+    #[asset(path = "textures/character/wheelbot/idle 112x26.png")]
+    pub texture_wheel_bot: Handle<Image>,
+    #[asset(path = "textures/Level_0__Bc.png")]
+    pub texture_map: Handle<Image>,
 }
